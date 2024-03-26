@@ -77,10 +77,10 @@ const Works = () => {
           className='mt-3 text-secondary text-[17px]
       max-w-3x1 leading-[30px]'
         >
-          "Hier bevinden mijn gemaakte applicaties binnen software development,
+          Hier bevinden mijn gemaakte applicaties binnen software development,
           alle projecten zijn nauwkeurig op creatieve wijze ineen gesteld.
           Dit toont mijn vermogen om complexe problemen op te lossen,
-          te werken met verschillende technologieën, en projecten effectief te beheren."
+          te werken met verschillende technologieën, en projecten effectief te beheren.
         </motion.p>
       </div >
 

@@ -161,9 +161,9 @@ import {
     iconBg: "#ff73a9 ",
     date: "2024 Heden",
     points: [
-      "Ontwikkelen van complexe in-check systeem voor leraren om absentie van leerlingen te kunnen bijhouden. Studenten kunne  zelf via een in-ckeck paal inloggen met ons gebouwde systeem ",
-      "Project gerealizeerd door middel van productieve samenwerking van andere developers. ",
-      "....",
+      "Het ontwikkelen van een geavanceerd inchecksysteem voor leraren om de afwezigheid van leerlingen bij te houden. Studenten kunnen eenvoudig inloggen via een incheckpaal met behulp van ons systeem. ",
+      "Project gerealizeerd door middel van productieve samenwerking met andere developers. ",
+      "Gebruik gemaakt van diverse web-techniken voor uiterste werking.",
     ],
   },
  ];
