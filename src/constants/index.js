@@ -162,7 +162,7 @@ import {
     date: "2024 Heden",
     points: [
       "Het ontwikkelen van een geavanceerd inchecksysteem voor leraren om de afwezigheid van leerlingen bij te houden. Studenten kunnen eenvoudig inloggen via een incheckpaal met behulp van ons systeem. ",
-      "Project gerealizeerd door middel van productieve samenwerking met andere developers. ",
+      "Project gerealizeerd voor de bureau afdeling op het GLU, met behulp van een productieve samenwerking met andere developers. ",
       "Gebruik gemaakt van diverse web-techniken voor uiterste werking.",
     ],
   },
