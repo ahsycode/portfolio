@@ -197,20 +197,20 @@ import {
  
  const projects = [
    {
-     name: "...",
+     name: "Project1",
      description:
        "....",
      tags: [
        {
-         name: "...",
+         name: "zxc",
          color: "blue-text-gradient",
        },
        {
-         name: "...",
+         name: "qwe",
          color: "green-text-gradient",
        },
        {
-         name: "...",
+         name: "asd",
          color: "pink-text-gradient",
        },
      ],
@@ -218,20 +218,20 @@ import {
      source_code_link: "https://github.com/",
    },
    {
-     name: "...",
+     name: "Project2",
      description:
        "....",
      tags: [
        {
-         name: "...",
+         name: "sss",
          color: "blue-text-gradient",
        },
        {
-         name: "...",
+         name: "sssd",
          color: "green-text-gradient",
        },
        {
-         name: "...",
+         name: "asdsd",
          color: "pink-text-gradient",
        },
      ],
