@@ -170,17 +170,17 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "...",
-    name: "Ariana",
-    designation: "...",
-    company: "...",
+      "Ahsen is ondernemend en sociaal. Ze valt op door haar opgewekte en positieve persoonlijkheid.",
+    name: "Martijn Kunstman",
+    designation: "Developer",
+    company: "GLU",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
       "Ik ben vaak vastgelopen tijdens de programmeeropdrachten tijdens onze studie, maar gelukkig heeft Ahsen mij talloos kunnen helpen.",
     name: "Norma Hlehel",
-    designation: "Klasgenoot",
+    designation: "Student",
     company: "GLU",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
@@ -217,20 +217,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Project2",
+    name: "Netflix Clone",
     description:
-      "....",
+      "Een ",
     tags: [
       {
-        name: "sss",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "sssd",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "asdsd",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
