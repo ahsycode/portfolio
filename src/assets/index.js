@@ -30,6 +30,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import app from "./app.png";
+import norma from "./norma.png";
+import martijn from "./martijn.png";
+import demi from "./demi.png";
 
 export {
   logo,
@@ -61,4 +64,7 @@ export {
   carrent,
   jobit,
   app,
+  norma,
+  martijn,
+  demi,
 };

@@ -24,6 +24,9 @@ import {
   jobit,
   app,
   threejs,
+  norma,
+  martijn,
+  demi,
 } from "../assets";
 
 export const navLinks = [
@@ -43,7 +46,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web(App) Developer",
+    title: "Web Developer",
     icon: web,
   },
   {
@@ -55,7 +58,7 @@ const services = [
     icon: backend,
   },
   {
-    title: " ???",
+    title: "UI/UX Developer",
     icon: creator,
   },
 ];
@@ -172,55 +175,34 @@ const testimonials = [
     testimonial:
       "Ahsen is ondernemend en sociaal. Ze valt op door haar opgewekte en positieve persoonlijkheid.",
     name: "Martijn Kunstman",
-    designation: "Developer",
+    designation: "Developing teacher",
     company: "GLU",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: martijn,
   },
   {
     testimonial:
-      "Ik ben vaak vastgelopen tijdens de programmeeropdrachten tijdens onze studie, maar gelukkig heeft Ahsen mij talloos kunnen helpen.",
+      "Ik ben vaak vastgelopen tijdens de programmeeropdrachten, maar gelukkig heeft Ahsen mij talloos kunnen helpen tijdens onze studie.",
     name: "Norma Hlehel",
-    designation: "Student",
-    company: "GLU",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    designation: "Developing student",
+    company: "GLU", 
+    image: norma,
   },
   {
     testimonial:
-      "...",
-    name: "...",
-    designation: "...",
-    company: "...",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Ahsen is zeker een waardevolle toevoeging aan elk team. Professioneel en haar passie voor coderen en oog voor detail maakt haar uniek.",
+    name: "Demi Fahmi",
+    designation: "Developing student",
+    company: "GLU",
+    image: demi,
   },
 ];
 
 const projects = [
   {
-    name: "Project1",
-    description:
-      "....",
-    tags: [
-      {
-        name: "zxc",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "qwe",
-        color: "green-text-gradient",
-      },
-      {
-        name: "asd",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
     name: "Netflix Clone",
     description:
-      "Een ",
-    tags: [
+    "In samenwerking met een andere developer hebben we een Netflix-kloon ontworpen en gebouwd. Dit streamingplatform is ontwikkeld om dezelfde ervaring te bieden als Netflix, waarbij je door films kunt scrollen en je favorieten kunt opslaan en meer !",
+        tags: [
       {
         name: "react",
         color: "blue-text-gradient",
@@ -235,6 +217,27 @@ const projects = [
       },
     ],
     image: jobit,
+    source_code_link: "https://github.com/Jabir220501/module-15",
+  },
+  {
+    name: "MERN Chat App",
+    description: "Dit is een realtime chat app gemaakt met react, node.js, socket.io, mongodb en express. De chat app is  responsive en gestyled met de styled componenten. Hier kun je registreren, in en uit loggen, ook avatars uitzoeken en berichten verzenden door middel van sockets. //Under construction ! //",
+
+          tags: [
+      {
+        name: "mongodb",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "socket.IO",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
     source_code_link: "https://github.com/",
   },
   {

@@ -81,7 +81,7 @@ const Works = () => {
           alle projecten zijn nauwkeurig op creatieve wijze ineen gesteld.
           Dit toont mijn vermogen om complexe problemen op te lossen,
           te werken met verschillende technologieën, en projecten effectief te beheren.
-        </motion.p>
+          Ik heb ook mijn GitHub toegevoegd, zodat je mijn projecten live kunt bekijken via de Vercel-app.</motion.p>
       </div >
 
       <div className='mt-20 flex flex-wrap gap-7'>
