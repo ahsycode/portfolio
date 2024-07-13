@@ -32,11 +32,11 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "Over",
+    title: "About",
   },
   {
     id: "work",
-    title: "Werk",
+    title: "Work",
   },
   {
     id: "contact",
@@ -120,52 +120,53 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Kantoor Medewerker",
+    title: "Office Assistant",
     company_name: "Landzigt, Utrecht",
     icon: starbucks,
-    iconBg: "#D1BDC4  ",
-    date: "Oktober 2020 - Februari 2021",
+    iconBg: "#D1BDC4",
+    date: "October 2020 - February 2021",
     points: [
-      "Verantwoordelijk voor het schoonmaken en onderhouden van kantoorruimtes volgens de gestelde normen en richtlijnen.",
-      "Voerde administratieve taken uit, zoals gegevensinvoer, documentbeheer en agendabeheer.",
-      "Assisteerde bij het opstellen en bewerken van zakelijke documenten, zoals brieven, rapporten en presentaties",
-      "Ik heb geleerd om gedisciplineerd, netjes en zorgvuldig te werk te gaan en mijn afspraken na te komen."],
+      "Responsible for cleaning and maintaining office spaces according to established standards and guidelines.",
+      "Performed administrative tasks such as data entry, document management, and calendar management.",
+      "Assisted in drafting and editing business documents such as letters, reports, and presentations.",
+      "Learned to work disciplined, neatly, and carefully, and to honor my commitments.",
+    ],
   },
   {
-    title: "Piano/Engels lerares",
+    title: "Piano/English Teacher",
     company_name: "Veldhuizen, Utrecht",
     icon: tesla,
-    iconBg: "#D1BDC4 ",
-    date: "Mei 2022, Heden",
+    iconBg: "#D1BDC4",
+    date: "May 2022 - Present",
     points: [
-      "Verzorgde individuele en groepslessen piano aan leerlingen van verschillende leeftijden en niveaus.",
-      "Onderwees Engelse taalvaardigheden aan studenten, inclusief grammatica, vocabulaire en conversatie.",
-      "Ontwikkelde lesplannen en aangepaste lesmaterialen om aan de behoeften van de kinderen te voldoen.",
-      "Communicatief, geduldig en structureel bezig geweest.",
+      "Provided individual and group piano lessons to students of various ages and levels.",
+      "Taught English language skills to students, including grammar, vocabulary, and conversation.",
+      "Developed lesson plans and adapted teaching materials to meet children's needs.",
+      "Communicated effectively, patiently, and structurally.",
     ],
   },
   {
     title: "Webshop Developer",
-    company_name: "Shopify,  Wordpress",
+    company_name: "Shopify, Wordpress",
     icon: shopify,
-    iconBg: "#D1BDC4 ",
+    iconBg: "#D1BDC4",
     date: "2023",
     points: [
-      "Ecommerce webshop ontwikkelen in Wordpress met nuttige plugins als Woocommerce. ",
-      "Het toepassen van responsief ontwerp en het verzekeren van werking in diverse webbrowsers.",
-      "Module gevolgd voor het verkopen van hoge kwaliteits producten op shopify platform",
+      "Developing ecommerce webshop in Wordpress with useful plugins like Woocommerce.",
+      "Applying responsive design and ensuring functionality across various web browsers.",
+      "Attended module for selling high-quality products on Shopify platform.",
     ],
   },
   {
     title: "System Development",
-    company_name: "GLU,  Bureau",
+    company_name: "GLU, Bureau",
     icon: system,
-    iconBg: "#D1BDC4 ",
-    date: "2024 Heden",
+    iconBg: "#D1BDC4",
+    date: "2024 - Present",
     points: [
-      "Het ontwikkelen van een geavanceerd inchecksysteem voor leraren om de afwezigheid van leerlingen bij te houden. Studenten kunnen eenvoudig inloggen via een incheckpaal met behulp van ons systeem. ",
-      "Project gerealizeerd voor het Bureau afdeling op het GLU, met behulp van een productieve samenwerking met andere developers. ",
-      "Gebruik gemaakt van diverse web-techniken voor uiterste werking.",
+      "Developing an advanced check-in system for teachers to track student absences. Students can easily log in via a check-in station using our system.",
+      "Project realized for the Bureau department at GLU, with productive collaboration with other developers.",
+      "Utilized various web technologies for optimal performance.",
     ],
   },
 ];
@@ -173,7 +174,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Ahsen is ondernemend en sociaal. Ze valt op door haar opgewekte en positieve persoonlijkheid.",
+      "Ahsen is enterprising and social. She stands out for her cheerful and positive personality.",
     name: "Martijn Kunstman",
     designation: "Developing teacher",
     company: "GLU",
@@ -181,15 +182,15 @@ const testimonials = [
   },
   {
     testimonial:
-      "Ik ben vaak vastgelopen tijdens de programmeeropdrachten, maar gelukkig heeft Ahsen mij talloos kunnen helpen tijdens onze studie.",
+      "I often got stuck during programming assignments, but fortunately Ahsen has been able to help me countless times during our studies.",
     name: "Norma Hlehel",
     designation: "Developing student",
-    company: "GLU", 
+    company: "GLU",
     image: norma,
   },
   {
     testimonial:
-      "Ahsen is zeker een waardevolle toevoeging aan elk team. Professioneel en haar passie voor coderen en oog voor detail maakt haar uniek.",
+      "Ahsen is definitely a valuable addition to any team. Professional and her passion for coding and attention to detail makes her unique.",
     name: "Demi Fahmi",
     designation: "Developing student",
     company: "GLU",
@@ -201,8 +202,8 @@ const projects = [
   {
     name: "Netflix Clone",
     description:
-    "In samenwerking met een andere developer hebben we een Netflix-kloon ontworpen en gebouwd. Dit streamingplatform is ontwikkeld om dezelfde ervaring te bieden als Netflix, waarbij je door films kunt scrollen en je favorieten kunt opslaan en meer !",
-        tags: [
+      "Collaborated with another developer to design and build a Netflix clone. This streaming platform is developed to provide the same experience as Netflix, allowing users to scroll through movies, save favorites, and more!",
+    tags: [
       {
         name: "react",
         color: "blue-text-gradient",
@@ -221,9 +222,9 @@ const projects = [
   },
   {
     name: "MERN Chat App",
-    description: "Dit is een realtime chat app gemaakt met react, node.js, socket.io, mongodb en express. De chat app is  responsive en gestyled met de styled componenten. Hier kun je registreren, in en uit loggen, ook avatars uitzoeken en berichten verzenden door middel van sockets. //Under construction ! //",
-
-          tags: [
+    description:
+      "This is a real-time chat app made with React, Node.js, Socket.IO, MongoDB, and Express. The chat app is responsive and styled with styled components. Here you can register, log in and out, choose avatars, and send messages using sockets.",
+    tags: [
       {
         name: "mongodb",
         color: "blue-text-gradient",
@@ -243,7 +244,7 @@ const projects = [
   {
     name: "Self Help App",
     description:
-      "Een gebruiksvriendelijke applicatie dat is ontworpen om te ondersteunen bij het ontwikkelen van positieve gewoontes. Of je nu aan je gezondheid wilt werken, regelmatiger wilt lezen of productiever wilt worden, deze webapp is jouw persoonlijke coach. Met functies zoals nieuwe gewoontes instellen, en dagelijks in je persoonlijke dagboek schrijven. ",
+      "A user-friendly application designed to support developing positive habits. Whether you want to work on your health, read more regularly, or become more productive, this web app is your personal coach. Features include setting new habits and writing daily in your personal diary.",
     tags: [
       {
         name: "html",

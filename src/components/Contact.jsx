@@ -33,7 +33,7 @@ const Contact = () => {
     }, 'Ch3qPQ4oxI_pBKfwb')
       .then(() => {
         setLoading(false);
-        alert('Bedankt voor je bericht, ik kom zo snel mogelijk bij je terug!');
+        alert('Thank you for your message, I will get back to you as soon as possible!');
 
         setForm({
           name: '',
@@ -51,18 +51,18 @@ const Contact = () => {
   return (
     <div className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}>
       <motion.div variants={slideIn('left', 'tween', 0.2, 1)} className='flex-[0.75] bg-black-100 p-8 rounded-2xl'>
-        <p className={styles.sectionSubText}>Contact mij</p>
+        <p className={styles.sectionSubText}>Contact me</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
         <form ref={formRef} onSubmit={handleSubmit} className='mt-12 flex flex-col gap-8'>
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Naam</span>
+            <span className='text-white font-medium mb-4'>Name</span>
             <input
               type='text'
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder='Hoe heet je?'
+              placeholder='Your Name'
               className='bg-tertiary py-4 px-6
               placeholder:text-secondary text-white rounded-lg
               outlined-none border-none font-medium'/>
@@ -74,19 +74,19 @@ const Contact = () => {
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder='Wat is je email?'
+              placeholder='Your e-mail'
               className='bg-tertiary py-4 px-6
               placeholder:text-secondary text-white rounded-lg
               outlined-none border-none font-medium'/>
           </label>
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Bericht</span>
+            <span className='text-white font-medium mb-4'>Message</span>
             <textarea
               rows='7'
               name='message'
               value={form.message}
               onChange={handleChange}
-              placeholder='Wat is je bericht?'
+              placeholder='Tell me...'
               className='bg-tertiary py-4 px-6
               placeholder:text-secondary text-white rounded-lg
               outlined-none border-none font-medium'/>
@@ -96,7 +96,7 @@ const Contact = () => {
             className='bg-tertiary py-3 px-8
             outline-none w-fit text-wgite font-bold shadow-md
             shadow-primary rounded-xl'>
-            {loading ? 'Verzenden...' : 'Verzenden'}
+            {loading ? 'Sending...' : 'Send'}
           </button>
         </form>
       </motion.div>

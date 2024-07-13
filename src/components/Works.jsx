@@ -68,8 +68,8 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Mijn werk</p>
-        <h2 className={styles.sectionHeadText}>Projecten</h2>
+        <p className={styles.sectionSubText}>My Work</p>
+        <h2 className={styles.sectionHeadText}>Projects</h2>
       </motion.div>
       <div className='w-fill flex'>
         <motion.p
@@ -77,11 +77,10 @@ const Works = () => {
           className='mt-3 text-secondary text-[17px]
       max-w-3x1 leading-[30px]'
         >
-          Hier bevinden mijn gemaakte applicaties binnen software development,
-          alle projecten zijn nauwkeurig op creatieve wijze ineen gesteld.
-          Dit toont mijn vermogen om complexe problemen op te lossen,
-          te werken met verschillende technologieën, en projecten effectief te beheren.
-          Ik heb ook mijn GitHub toegevoegd, zodat je mijn projecten live kunt bekijken via de Vercel-app.</motion.p>
+          Here are my software development applications, 
+          each project crafted with creativity and precision. 
+          This demonstrates my ability to solve complex problems, work with various technologies effectively, 
+          and manage projects well. I've also included my GitHub link so you can view my projects live through the Vercel app.</motion.p>
       </div >
 
       <div className='mt-20 flex flex-wrap gap-7'>
